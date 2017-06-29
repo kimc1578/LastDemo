@@ -45,4 +45,5 @@ http://www.springframework.org/schema/aop/spring-aop-4.3.xsd"
 		<constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory" />
 
 	</bean>
+	<context:component-scan base-package="co.kr.bit.domain"></context:component-scan>
 </beans>
